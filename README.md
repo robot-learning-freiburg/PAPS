@@ -2,7 +2,7 @@
 
 PAPS is a bottom approach for amodal panoptic segmentation, where the goal is to concurrently predict the pixel-wise semantic segmentation labels of visible regions of "stuff" classes (e.g., road, sky, and so on), and instance segmentation labels of both the visible and occluded regions of "thing" classes (e.g., car, truck, etc).
 
-![Overview of PAPS Architecture](/projects/paps/images/intro.png)
+![Overview of PAPS Architecture](/projects/PAPS/images/intro.png)
 
 This repository contains the **PyTorch implementation** of our RA-L'2022 paper [Perceiving the Invisible: Proposal-Free Amodal Panoptic Segmentation](https://arxiv.org/pdf/2205.14637.pdf). The repository builds on [Detectron2](https://github.com/facebookresearch/detectron2).
 
